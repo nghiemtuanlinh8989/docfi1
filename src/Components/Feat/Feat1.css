@@ -1,0 +1,271 @@
+.bonmang {
+    /* background-color: aquamarine; */
+    padding: 20px;
+}
+
+.card-img-top {
+    width: 124px;
+    height: 37px;
+}
+
+.card-text22 {
+    padding-top: 20px;
+}
+
+.fab {
+
+    padding: 11px;
+    border-radius: 50px;
+    border: 1px solid rgb(88, 88, 182);
+    /* margin-left: 8px; */
+    /* background-color: aquamarine; */
+}
+
+.fa-twitter {
+    border: 1px solid blue;
+}
+
+.fa-facebook-f:hover {
+    background-color: #1489f6;
+    color: white
+}
+
+.fa-twitter:hover {
+    background-color: #1489f6;
+    color: white
+}
+
+.fa-instagram {
+    border: 1px solid rgb(82, 56, 82)
+}
+
+
+.fa-instagram:hover {
+    background-color: rgb(82, 56, 82);
+    color: white
+}
+
+.fa-linkedin-in:hover {
+    background-color: rgb(84, 84, 154);
+    color: white
+}
+
+.social {
+    color: #1489f6;
+}
+
+.social1 {
+    color: #4291EE;
+}
+
+.social2 {
+    color: rgb(73, 73, 219)
+}
+
+.social3 {
+    color: rgb(167, 94, 94)
+}
+
+.name {
+    /* background-color: #4291EE; */
+    width: 320px;
+}
+
+.name2 {
+    background-color: blanchedalmond;
+
+
+
+}
+
+.bonmang {
+    background-color: #4291EE;
+
+
+
+}
+
+.card-text333 {
+    padding-top: 10px;
+}
+
+.fa-linkedin-in {
+    background: white;
+}
+
+
+
+
+.bonanh8 {
+    /* background-color: antiquewhite; */
+    padding: 15px;
+    height: 500px;
+
+}
+
+.card-text88 {
+    padding-top: 21px;
+    font-size: 16px;
+    color: #68707f;
+    padding-bottom: 10px;
+
+}
+
+.icon3 {
+    /* background-color: #f8f8f8; */
+    /* padding: 50px 30px 0px 30px; */
+    border-radius: 15px;
+
+}
+
+.card8 {
+    padding: 40px;
+
+}
+
+.card-title8 {
+    padding-top: 18px;
+    /* background-color: aqua; */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-text81 {
+    padding-top: 12px;
+    font-size: 16px;
+    color: #68707f;
+    /* padding-bottom: 50px; */
+/* background-color: #1489f6; */
+
+}
+
+.FAQ {
+    text-decoration: none;
+    color: #68707f
+}
+
+.FAQ:hover {
+    border-bottom: 1px solid grey;
+}
+
+.card812 {
+    /* background-color: #4291EE; */
+    padding-top: 18px;
+    margin-top: 30px;
+}
+
+.lorem {
+    /* background-color: #e4e8ef; */
+    border-bottom: 1px solid rgb(232, 226, 226);
+    padding-bottom: 100px;
+}
+
+.radius {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    padding-left: 5px;
+
+}
+
+.card-text15 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.shape5 {
+    position: absolute;
+    left: 189px;
+    bottom: -20px;
+    z-index: -50;
+
+}
+
+.shape6 {
+    position: absolute;
+    right: 142px;
+    bottom: -20px;
+    /* background-color: aquamarine; */
+}
+
+.thereimg {
+    background-color: black;
+    bottom: 0px;
+    /* border: 1px solid red; */
+    position: relative;
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:900px) {
+
+    .bonanh8 {
+        /* background-color: antiquewhite; */
+        /* padding: 100px; */
+        padding-top: 100px;
+    }
+
+    .card-text15 {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        font-size: 16px;
+    }
+
+}
+
+@media(max-width:1200px) {
+    .shape5 {
+        position: absolute;
+        left: 180px;
+        bottom: -20px;
+        z-index: -50;
+        display: none;
+    }
+
+    .shape6 {
+        position: absolute;
+        right: 142px;
+        bottom: -20px;
+        /* background-color: aquamarine; */
+    }
+
+    .thereimg {
+        background-color: black;
+        bottom: 0px;
+        /* border: 1px solid red; */
+        position: relative;
+ 
+    }
+    /* .tyle{
+        width: 100%;
+    } */
+  
+}
+
+@media(max-width:990px){
+    #tyle{
+        width: 50%;
+    }
+    #tyle2{
+        width: 50%;
+    }
+}
+
+
+
+
+@media(max-width:600px){
+    #tyle{
+        width: 100%;
+    }
+    #tyle2{
+        width: 100%;
+    }
+}

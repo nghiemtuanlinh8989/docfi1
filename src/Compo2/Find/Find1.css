@@ -1,0 +1,117 @@
+.commu2 {
+    font-size: 16px;
+    color: #6b707f;
+    /* padding: 0rem 25rem; */
+    padding-top: 12px;
+}
+
+.commu {
+    font-size: 23px;
+    font-weight: bolder;
+}
+
+@media(min-width:1250px) {
+    .commu2 {
+        font-weight: 400;
+        padding: 0.4rem 25rem;
+    }
+}
+
+@media(min-width:800px) {
+    .commu {
+        font-size: 34px;
+        font-family: sans-serif;
+        font-weight: bold;
+    }
+}
+
+@media(max-width:580px) {
+    .product {
+
+        margin-top: 20px;
+    }
+}
+
+#id_a {
+    height: 34px;
+    width: 34px;
+    padding: 3px;
+    border-radius: 20px;
+    background-color: #fcfcfc;
+    display: inline-block;
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background: none;
+    border: 1px solid #c7cbd4;
+
+}
+
+.messe2 {
+    width: 85px;
+    height: 85px;
+}
+
+.arrow1 {
+    /* background-color: blue; */
+}
+
+.product {
+    background-color: white;
+    padding: 68px 20px;
+    border-radius: 10px;
+    /* width: 315px;
+height: 350px; */
+
+}
+
+.product1 {
+    background-color: white;
+    padding: 68px 20px;
+    border-radius: 10px;
+    /* width: 315px;
+height: 350px; */
+
+}
+
+.rep {
+    /* background-color: aqua; */
+    margin-top: 14px;
+}
+
+.product1:hover {
+    background-color: #1489f6;
+    color: white;
+}
+
+.product:hover {
+    background-color: #1489f6;
+    color: white;
+}
+
+.btn1989 {
+  padding: 17px 24px 15px 29px;
+       background-color: #6b707f;
+       background:none;
+       border: 1px solid #1489f6 ;
+       color: #1489f6;
+       font-size: 16px;
+       font-weight: 500;
+       border-radius: 8px;
+}
+.beer{
+    
+    margin-top: 50px;
+    /* margin-left: 80px;
+    margin-right: 80px; */
+}
+.btn1989:hover{
+    background-color: #0b78dd;
+    color: #fcfcfc;
+}
+@media(max-width:526px){
+    .beer{
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+}

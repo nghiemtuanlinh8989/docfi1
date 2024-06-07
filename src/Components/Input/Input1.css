@@ -1,0 +1,226 @@
+.card-body {
+    /* background-color: aqua; */
+    justify-content: center;
+}
+
+.songoku {
+    padding: 10px;
+    background: white;
+    border-radius: 15px;
+
+}
+
+.fa-magnifying-glass {
+    width: 1px;
+    padding-right: 17px;
+    padding-left: 8px;
+}
+
+.pocolo {
+    padding: 20px;
+    /* background-color: aqua; */
+    /* text-align: center; */
+
+}
+
+.search-box-input {
+    height: 50px;
+    border: none;
+    outline: none;
+
+}
+
+.dropdown {
+    height: 50px;
+    /* background-color: aquamarine; */
+    /* padding-top: 10px; */
+
+}
+
+.btn-secondary1 {
+    text-decoration: none;
+    font-weight: 500;
+    align-items: center;
+
+
+
+
+
+}
+
+.btn1 {
+    padding: 11px;
+    padding-right: 17px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #1489f6;
+    border: none;
+    color: white;
+
+
+}
+
+.input-body {
+    overflow: hidden;
+}
+
+.haianh {
+    background-color: beige;
+
+
+}
+
+.fide {
+    padding-top: 10px;
+}
+
+.every {
+    /* background-color: blue; */
+    border-bottom: 1px solid rgb(216, 211, 211);
+    border-top: 1px solid rgb(216, 211, 211);
+
+}
+
+
+.card-body1 {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+@media (max-width :768px) {
+    .search-box-input {
+        width: 100%;
+
+    }
+
+    .btn-secondary1 {
+        width: 100%;
+
+    }
+
+    .fide {
+        width: 100%;
+
+    }
+
+    .dropdown {
+        /* background-color: aqua; */
+        padding-top: 10px;
+
+    }
+
+
+}
+
+.popu h5 {
+    color: azure;
+    font-weight: bolder;
+}
+
+.popu h6 {
+    color: #ffffffc2
+}
+
+.popu {
+    /* background-color: aqua; */
+    padding-top: 15px;
+}
+
+@media (max-width:975px) {
+    .shape1 {
+        display: none;
+    }
+
+    .shape2 {
+        display: none;
+    }
+
+}
+
+@media (min-width :770px) {
+    .songoku {
+
+        display: flex;
+        width: 700px;
+        gap: 20;
+        /* margin-left: 420px; */
+        border-radius: 50px;
+    }
+
+    .search-box-input {
+        width: 50%;
+        height: 30px;
+        margin-top: 16px;
+        /* background-color: aqua; */
+        border-right: 1px solid rgb(212, 206, 206);
+        padding-left: 16px;
+
+    }
+
+    .btn-secondary1 {
+        width: 100%;
+        /* background-color: blueviolet; */
+        margin-left: 20px;
+
+
+
+    }
+
+
+    .every {
+        border: none;
+        margin-top: 20px;
+        /* background-color: aqua; */
+        height: 5px;
+    }
+
+    .fide {
+        /* background-color: aqua; */
+        margin-left: 100px;
+
+
+    }
+
+
+
+    .card-body {
+
+
+        display: flex;
+    }
+
+    .btn1 {
+
+        margin-bottom: 5px;
+        margin-left: 35px;
+    }
+
+    .shape1 {
+        position: absolute;
+        left: -120px;
+        top: 250px;
+
+    }
+
+    .shape2 {
+        position: absolute;
+        right: -170px;
+        top: 263px;
+
+    }
+
+    .popu {
+        display: flex;
+        align-items: baseline;
+        gap: 10px;
+        /* background-color: aquamarine; */
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+}

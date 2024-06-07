@@ -1,0 +1,247 @@
+.login-button {
+    /* background-color: rgb(88, 88, 165); */
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 1px solid;
+    transition: 0.4s background-color;
+    font-weight: 600;
+}
+
+.login-button:hover {
+    background-color: #1489F6;
+}
+
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+
+}
+
+.navbar-toggler:focus,
+.btn-close:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 500;
+    position: relative;
+    font-size: 18px;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: white
+}
+
+.nav-link::before {
+
+    content: "";
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    ;
+    background-color: #1489F6;
+    visibility: hidden;
+    /* transition: 0.5s ease-in-out; */
+}
+
+.nav-link:hover::before {
+    width: 75%;
+    visibility: visible;
+}
+
+.navbar-brand {
+    font-weight: 500;
+    color: #1489F6;
+    /* background-color: rgb(153, 101, 38); */
+}
+
+.hero-section {
+    background-size: cover;
+    width: 100%;
+
+}
+
+.jumbotron {
+    margin-top: 100px;
+}
+
+.hero-section::before {
+    background-color: #fff;
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-section,
+.container {
+    /* height: 10vh; */
+    z-index: 2;
+    position: relative;
+}
+
+.hero-section,
+.jumbo {
+    font-size: 36px;
+    font-weight: 650;
+}
+
+.hero-section,
+.jumbo1 {
+    font-size: 17px;
+    /* margin-right: 55px; */
+}
+
+/* .box-submenu{
+    display: none;
+ 
+}
+.offcanvas-body ul li:hover .box-submenu{
+    display: block;
+    position: absolute;
+    background: #FFFFFF;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+.offcanvas-body ul li:hover .box-submenu ul{
+ display: block;
+ margin: 0px;
+ padding: 0px;
+
+}
+.offcanvas-body ul li:hover .box-submenu ul li{
+  width: 200px;
+
+  text-align: left;
+  padding-left: 30px;
+border-bottom: dotted 1px #fff;
+
+border-radius: 0;
+padding: 5px;
+
+margin: 15px;
+
+
+}
+.offcanvas-body ul li:hover .box-submenu ul li a:hover{
+    color:#1489F6;
+   
+}
+.box-submenu a{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(52, 48, 48);
+    font-family: sans-serif;
+} */
+
+.offcanvas-body ul li {
+    position: relative;
+}
+
+.offcanvas-body ul li:hover .box-submenu {
+    display: inherit;
+    background-color: white;
+}
+
+
+
+.box-submenu {
+    position: absolute;
+    background-color: #fff;
+    width: 250px;
+    height: 180px;
+    display: none;
+    padding: 12px 0;
+}
+
+.box-submenu ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.box-submenu ul li {
+    padding: 0 0 0 6px;
+    margin: 12px 0;
+    border-left: 3px solid white;
+    line-height: normal;
+    height: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.box-submenu ul li a{
+   text-decoration: none;
+   color: #000;
+
+}
+
+.box-submenu ul li:hover {
+   border-left: 3px solid #1489F6;
+}
+
+.box-submenu ul li a:hover {
+    color: #1489F6;
+ }
+
+
+@media (max-width :768px) {
+    .login-button {
+        display: none;
+    }
+
+}
+
+@media (max-width :1200px) {}
+
+
+
+@media (min-width :768px) {
+    .jumbotron {
+        margin-top: 140px;
+    }
+
+    .jumbotron,
+    .jumbo {
+        font-size: 50px;
+    }
+
+    .jumbotron,
+    .jumbo1 {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 990px) {
+    .nav-link {
+        color: black;
+        font-weight: 500;
+        position: relative;
+        font-size: 18px;
+    }
+
+    .activeone {
+        color: black;
+    }
+
+    .nav-link:hover,
+    .nav-link.active {
+        color: rgb(23, 20, 20)
+    }
+
+    .nav-link::before {
+        transform: translateX(-70%);
+    }
+}

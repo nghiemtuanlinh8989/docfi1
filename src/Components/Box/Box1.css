@@ -1,0 +1,95 @@
+.btn2 {
+    padding: 10px 20px 11px;
+   
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight:600;
+    background-color: #1489f6;
+    border: none;
+    color: white;
+    margin:0px 8px 0px 0px;
+    
+ }
+.btn3 { padding: 10px 20px 11px;
+    margin:0px 8px 0px 0px;
+   
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight:600;
+    background-color: #f8f8f8;
+    border: none;
+    color: black;
+    margin-top: 10px;
+     }    
+      .btn4 {
+        padding: 10px 20px 11px;
+        margin:0px 8px 0px 0px;
+       
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight:600;
+        background-color: #f8f8f8;
+        border: none;
+        color: black;
+        margin-top: 10px;
+        
+        }   
+        
+            .btn5 {
+                padding: 10px 20px 11px;
+                margin:0px 8px 0px 0px;
+               
+                border-radius: 50px;
+                font-size: 16px;
+                font-weight:600;
+                background-color: #f8f8f8;
+                border: none;
+                color: black;
+                margin-top: 10px;
+                
+                }
+                .btn6 {
+                    padding: 10px 20px 11px;
+                    margin:0px 8px 0px 0px;
+                   
+                    border-radius: 50px;
+                    font-size: 16px;
+                    font-weight:600;
+                    background-color: #f8f8f8;
+                    border: none;
+                    color: black;
+                    margin-top: 10px;
+                    
+                    }
+                    .btn7 {
+                        padding: 10px 20px 11px;
+                        margin:0px 8px 0px 0px;
+                       
+                        border-radius: 50px;
+                        font-size: 16px;
+                        font-weight:600;
+                        background-color: #f8f8f8;
+                        border: none;
+                        color: black;
+                        margin-top: 10px;
+         }
+ .btn3:hover{
+    background-color:#1489f6 ;
+    color: #f8f8f8;
+ }
+ .btn4:hover{
+    background-color:#1489f6 ;
+    color: #f8f8f8;
+ }
+ .btn5:hover{
+    background-color:#1489f6 ;
+    color: #f8f8f8;
+ }
+ .btn6:hover{
+    background-color:#1489f6 ;
+    color: #f8f8f8;
+ }
+ .btn7:hover{
+    background-color:#1489f6 ;
+    color: #f8f8f8;
+ }

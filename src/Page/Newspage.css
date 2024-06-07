@@ -1,0 +1,51 @@
+.New1 {
+    background-color: #e1ffef;
+}
+
+.New8910 {
+    background-color: #e1ffef;
+    height: 600px;
+
+
+}
+
+.Footer {
+    background: #191e2f;
+    height: 1275px;
+}
+
+.Footer2 {
+    background-color: #f5f5f5;
+    padding: 10px;
+    padding-bottom: 90px;
+}
+
+.Find {
+    background: #f5f5f5;
+
+
+}
+
+@media (min-width:992px) {
+    .Footer {
+
+        height: 528px;
+    }
+}
+
+@media(min-width:900px) {
+    .New8910 {
+        background-color: #e1ffef;
+        height: 680px;
+
+
+    }
+}
+
+@media (min-width:1250px) {
+    .Find {
+
+
+        padding: 0px 70px 20px 70px;
+    }
+}

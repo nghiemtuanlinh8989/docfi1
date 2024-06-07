@@ -1,0 +1,136 @@
+.seewho{
+    background-color: #fffcf6;
+    padding: 20px;
+    padding-top: 90px;
+    padding-bottom: 100px;
+}
+.card-title30{
+    font-size: 16px;
+    color: #1489f6;
+    font-family: Roboto,sans-serif;
+    font-weight: bolder;
+}
+.card-text30{
+    font-size: 36px;
+    color: #1d2746;
+    font-family: Roboto,sans-serif;
+    font-weight: bolder;
+}
+.nine9{
+    text-align: center;
+}
+.steli{
+    font-size: 20px;
+    color:#969696;
+    font-family: Barlow, sans-serif;
+    margin : 0px 0px 12px
+}
+.card-text99{
+    font-size: 16px;
+    font-family: Roboto,sans-serif;
+    color: #6b707f;
+}
+.dolor{
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 10px;
+}
+.carousel {
+/* background-color: aqua; */
+padding-top: 30px;
+}
+.theme1{
+    /* background-color: #1489f6; */
+    padding-top: 5px;
+}
+
+
+.carousel-control-next-icon{
+    background-color: grey;
+  
+}
+.carousel-control-prev-icon{
+    background-color: grey;
+}
+.active1{
+    background-color: aquamarine;
+}
+#wp1{
+    color: #fffcf6;
+}
+.d-block{
+    background-color: black;
+}
+
+.next:hover{
+    position: relative;
+    /* background-color: #1489f6; */
+    animation-name: loadingABC, move;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+
+ .carousel-indicators [data-bs-target] { 
+     
+    border: 0.1875em  #0F1C3F;
+    width: 10px;
+    height: 10px;
+    background: #cecece;
+    border-radius: 0;
+ 
+    transition: all 0.4s ease-in-out;
+    border-radius: 10px;
+    margin: 0 4px;
+}
+
+
+
+
+.carousel-indicators .active {
+         opacity: 1;
+         background: #1489f6; 
+}
+
+.carousel-indicators{
+    /* background-color: #1489f6; */
+   bottom:-90px;
+}
+
+
+
+
+
+
+@keyframes loadingABC {
+0%{
+    /* background-color: #1489f6; */
+}   
+
+}
+@keyframes move{
+    from{
+        left:0;
+    } to {
+        left:100px;
+       
+        
+    } 
+  
+        
+    
+}
+@media(max-width:727px){
+    .next{
+        display: none;
+    }
+   
+}
+@media(min-width:1250px){
+    .seewho{
+       
+        padding-bottom: 70px;
+    }
+}

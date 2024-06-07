@@ -1,0 +1,364 @@
+.card-title1 {
+  font-size: 18px;
+  color: #1489f6;
+  font-weight: bold;
+}
+
+.card-text1 {
+  font-size: 33px;
+  font-weight: bolder;
+  color: #1d2746;
+}
+
+.card-body1 {
+  /* background-color: aqua; */
+  padding-top: 80px;
+  font-family: sans-serif;
+}
+
+
+
+.Frames1 {
+  /* background-color: bisque; */
+
+
+  display: flex;
+  /* width: 340px; */
+  /* padding-top: 20px; */
+  gap: 20px;
+  padding: 20px;
+
+
+
+}
+
+.xoayngang {
+  display: flex;
+}
+
+.rt-icon11 {
+  color: #fe3387;
+}
+
+.mango1 {
+  /* padding-left: 40px; */
+  min-width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 0 40px 40px 40px;
+
+  text-align: center;
+
+  background-color: #fe3387;
+}
+
+.mango1:hover {
+
+  background: white;
+}
+
+.guava2:hover {
+  background: white;
+}
+
+
+
+.oppo {
+
+  padding-top: 5px;
+}
+
+.guava2 {
+  min-width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 0 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  background: var(--docfi-primary-color);
+  background-color: blueviolet;
+}
+
+.apple33 {
+  min-width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 0 40px 40px 40px;
+  display: inline-block;
+  text-align: center;
+  background: var(--docfi-primary-color);
+  background-color: #68d2ff;
+}
+
+
+.face2 {
+  /* background-color: blanchedalmond; */
+
+
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+
+
+
+}
+
+
+
+.max3 {
+  /* background-color: #4b667f; */
+  gap: 20px;
+
+  padding: 20px;
+  display: flex;
+
+
+
+}
+
+.login-button1 {
+  color: #6b707f;
+  font-size: 15px;
+  padding: 12px 12px;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 1px solid;
+  transition: 0.4s background-color;
+  font-weight: 600;
+  /* background-color: #fe3387; */
+
+
+}
+
+.khung11,
+.khung22 {
+  padding-top: 20px;
+  text-decoration: none;
+
+}
+
+.sele,
+.sele2,
+.sele3 {
+  padding-top: 30px;
+
+}
+
+.Frames111 {
+  background-color: #fff9f8;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+
+
+
+}
+
+.mango9 {
+
+  color: black;
+  font-Size: 24px;
+  font-Weight: 500;
+  text-decoration: none;
+}
+
+.mango10 {
+
+  font-Size: 16.5px;
+  color: #68707f;
+  font-Weight: 400;
+  margin-Top: 15px;
+
+}
+
+.Frames111:hover .mango9,
+.Frames111:hover .mango10,
+.Frames111:hover .login-button1 {
+  color: white;
+
+
+}
+
+.sele:hover .login-button1 {
+  background-color: #f3fbff;
+  color: #fe3387;
+}
+
+.Frames111:hover .mango1 {
+  background-color: white;
+  min-width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px 0px 40px 40px;
+
+  text-align: center;
+}
+
+.Frames111:hover .rt-icon11 {
+  fill: #fe3387;
+  color: white;
+}
+
+.Frames111:hover {
+  background: #fe3387;
+
+}
+
+.psum {
+  text-Decoration: none;
+  color: black;
+  font-size: 24px;
+  font-Weight: 500;
+}
+
+.psum2 {
+  font-Size: 16.5px;
+  color: #68707f;
+  font-Weight: 400;
+  margin-Top: 15px;
+}
+
+
+.face222:hover .psum,
+.face222:hover .psum2,
+.face222:hover .login-button1 {
+  color: white;
+
+
+}
+
+.face222:hover .guava2 {
+  background: white;
+  min-width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px 0px 40px 40px;
+
+  text-align: center;
+ 
+}
+
+.face222:hover {
+  background: blueviolet;
+
+}
+
+.face222:hover .rt-icon22 {
+background:none;
+/* color: #f3fbff; */
+fill: blueviolet;
+
+}
+
+.sele2:hover .login-button1 {
+  background-color: #f3fbff;
+  color: blueviolet;
+}
+
+.simly {
+  text-Decoration: none;
+  color: black;
+  font-Size: 24px;
+  font-Weight: 500;
+}
+
+.simly2 {
+  font-Size: 16px;
+  color: "#68707f";
+  font-Weight: 400;
+  margin-Top: 15px;
+}
+.sun333:hover .simly,
+.sun333:hover .simly2,
+.sun333:hover .login-button1 {
+  color: white;
+
+
+}
+.sun333:hover .apple33 {
+  background-color: white;
+  min-width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 40px 0px 40px 40px;
+
+  text-align: center;
+}
+
+.sele3:hover .login-button1 {
+  background-color: #f3fbff;
+  color: #68d2ff;
+}
+
+
+
+.sun333 .rt-icon1 {
+fill:#68d2ff; ;
+}
+
+.sun333:hover {
+  background-color: #68d2ff;
+}
+
+.sun333:hover .apple33 {
+  background: white;
+
+}
+
+
+.face222 {
+  background: #7a35fe0d;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+
+.sun333 {
+  background-color: #f3fbff;
+  margin-top: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+
+.istock {
+  width: 50px;
+  height: 50px;
+}
+
+.istock2 {
+  width: 40px;
+  height: 50px;
+}
+
+
+
+
+
+
+
+
+.login-button1:hover {
+  background-color: white;
+  color: #fe3387
+}
+
+@media (max-width :1000px) {
+  .login-button1 {
+    font-size: 14.5px;
+  }
+
+  .card-title1 {
+    font-size: 16px;
+  }
+
+  .card-text1 {
+    font-size: 28px;
+    font-weight: 750;
+  }
+
+
+}

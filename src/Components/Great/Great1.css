@@ -1,0 +1,238 @@
+.fakeimg2 {
+    /* background-color: aqua; */
+    margin-top: 10px;
+
+    /* display: flex; */
+
+}
+
+.fakeimg1 {
+    /* background-color: rgb(149, 99, 33); */
+    /* margin-top: 150px; */
+    margin-top: 30px;
+
+}
+
+.songoku1 {
+    width: auto;
+
+    /* background: white; */
+    border-radius: 50px;
+    /* background-color: aquamarine; */
+
+}
+
+.search-box-input2 {
+    height: 28px;
+    border: none;
+    outline: none;
+    width: 200px;
+    /* background-color: aquamarine; */
+    padding-left: 5px;
+    padding-top: 4px;
+
+
+
+}
+
+.pocolo2 {
+    background-color: #ffffff;
+    border-radius: 50px;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+
+
+
+}
+
+.messe {
+    /* background-color: aqua; */
+    padding-top: 4px;
+
+}
+
+
+
+
+.btn20 {
+    padding: 20px 60px 20px;
+    margin: 0px 8px 0px 0px;
+
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #f8f8f8;
+    border: none;
+    color: black;
+    width: 220px;
+
+
+}
+
+
+.chaien {
+    /* background-color: aquamarine; */
+    padding-top: 7px;
+    padding-left: 5px;
+}
+
+.chaien1 {
+    color: white;
+    padding-left: 5px;
+}
+
+.chaien3 {
+    display: flex;
+    gap: 20px
+}
+
+.search-box-input23 {
+    width: 16px;
+    height: 16px;
+    border: 1px solid white;
+    border-radius: 10px;
+
+    background: none;
+
+
+
+}
+
+.btn25 {
+    padding: 20px 29px 20px;
+
+    border-radius: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #1489f6;
+    border: none;
+    color: white;
+    margin: 0px 6px 0px 0px;
+    text-align: left;
+    width: 350px;
+ 
+
+
+
+}
+#enve{
+    /* background-color: aqua; */
+    color: #6b707f;
+  
+}
+.btn25:hover {
+
+    background-color: black;
+}
+
+.container3 {
+    margin-top: 15px;
+}
+
+#here{
+    font-size: 33px;
+    font-weight: 700;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width :1000px) {
+    .pocolo2 {
+        /* TODO */
+        /* width: 500px */
+    }
+
+    .fakeimg2 {
+        display: flex;
+    }
+
+    .btn25 {
+        width: 200px;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    /* .fakeimg1{
+        margin-top: 50px;
+    } */
+    .fakeimg2 {
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
+    .container3 {
+        margin-top: 0px;
+        padding-left: 5px
+        /* background-color: aqua; */
+    }
+
+    .great {
+
+        background-image: url("https://www.radiustheme.com/demo/wordpress/themes/docfi/wp-content/uploads/2023/09/banner_bg1.jpg");
+        height: 320px;
+        padding: 70px;
+    }
+
+    .fakeimg1 {
+        /* width: 450px; */
+        padding-left: 40px;
+    }
+    .pocolo2 {
+        background-color: #ffffff;
+        border-radius: 50px;
+        padding: 20px;
+        width: 470px;
+        display: flex;
+    
+    
+    }
+
+
+
+
+}
+@media (max-width :376px) {
+    /* .pocolo2 {
+      
+        width: 330px;
+       
+        height: 60px;
+    
+    
+    }
+    .btn25 {
+    
+        width: 330px;
+        height: 60px;
+    
+    
+    
+    } */
+}
+@media (max-width:1250px){
+    #ente{
+        width: 100%;
+    }
+    #ente2{
+        width: 100%;
+    }
+   
+}
+@media (max-width:500px){
+    #here{
+        font-size: 27px;
+    }
+    
+}

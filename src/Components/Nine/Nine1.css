@@ -1,0 +1,251 @@
+.card-title28 {
+    font-size: 16px;
+    color: #1489f6;
+    font-weight: 600;
+}
+
+.card-text28 {
+    font-size: 36px;
+    color: #1d2746;
+    font-weight: bold;
+}
+
+.accordion-item {
+    background-color: aquamarine;
+    border: none;
+    background: #ffffff;
+    border-radius: 20px;
+
+}
+
+.accordion-button {
+    border-radius: 10px;
+    background: white;
+    font-size: 18px ;
+    color: #1d2746;
+    font-weight: 500;
+    padding: 16px 30px;
+
+}
+
+.align-items-center {
+    border-radius: 10px;
+    /* background: rgb(105, 65, 65); */
+    /* font-size: 18px; */
+    color: #1d2746;
+    font-weight: 500;
+    padding: 16px 0px;
+
+
+
+
+
+}
+
+.number1 {
+    text-decoration: none;
+    color: #1489f6;
+    font-size: 20px;
+}
+
+
+
+.number {
+    text-decoration: none;
+    color: #1d2746;
+    font-size: 20px;
+}
+
+.there {
+    /* background-color: #1489f6;  */
+
+    border-bottom: 1px solid #EBEBEB;
+    ;
+}
+
+.there1 {
+    border-bottom: 1px solid #1489f6;
+    color: #1489f6;
+}
+
+
+.music:hover #dedup {
+    /* color: #1489f6; */
+    background-color: #1489f6;
+}
+
+.music:hover #dedup2 {
+    color: white
+}
+
+
+
+/* .number:hover{
+    color: #1489f6;
+}
+.badge:hover{
+    background: #1489f6;
+    color: #ffffff;
+}
+.there:hover{
+    border-bottom: 1px solid #1489f6;
+} */
+
+
+.fa-arrow-trend-up:hover {
+    color: #efefef;
+}
+
+
+
+
+.accordion-header1 {
+
+    padding-right: 5px;
+
+
+
+}
+
+
+
+.sum1 {
+    /* background-color: bisque; */
+    margin-top: 20px;
+
+
+}
+
+
+.active2 {
+    /* color: #1489f6; */
+    font-size: 20px;
+}
+
+.active1:hover {
+    color: black;
+}
+
+.canon {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 13px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    /* background-color: aqua; */
+    padding-right: 60px;
+    padding-left: 30px;
+
+}
+
+.badge {
+    background: #f6f6f6;
+    width: 30px;
+    height: 30px;
+
+}
+
+
+.fa-solid {
+
+    margin-top: 5px;
+
+}
+
+.fa-arrow-trend-up {
+    color: #1d2746;
+}
+
+.shape7 {
+    position: absolute;
+    right: 95px;
+    bottom: 2px;
+    /* background-color: aquamarine; */
+}
+
+.forimg {
+    background-color: black;
+    bottom: -90px;
+    /* border: 1px solid red; */
+    position: relative;
+
+}
+
+
+
+
+.aria {
+    /* background-color: #1d2746; */
+    padding-top: 20px;
+}
+.accordion-button::after { 
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='6' width='8' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%231e8fe6' d='M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z'/%3E%3C/svg%3E"); 
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='6' width='8' viewBox='0 0 512 512'%3E%3C!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--%3E%3Cpath fill='%231e8fe6' d='M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z'/%3E%3C/svg%3E"); 
+    /* transform: var(--bs-accordion-btn-icon-transform); */
+}
+
+.accordion-button::after {
+  /* background-color: #1489f6; */
+    margin-top: 7px;
+}
+.accordion-body{
+    /* display: none; */
+    /* background-color: #1489f6; */
+    font-size: 16px;
+    color:#6b707f;
+    font-family: sans-serif;
+    padding-left: 30px;
+    padding: 0px 20px 30px 0px;
+    border-radius: 10px;
+    background: #ffffff;
+    }
+.accordion-button:not(.collapsed) {
+    color: var(--bs-accordion-active-color);
+    
+    box-shadow: none;
+    color:#1489f6;
+    background: none;
+    padding: 10px 20px 5px 30px;
+    background: #ffffff;
+
+}
+ .accordion {  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(255, 255, 255, 0.25);}
+
+
+
+.accordion-button:visited{
+    color: #1489f6;
+}
+
+
+
+@media (min-width:650px) {
+    .crow {
+
+        margin-left: 90px;
+    }
+
+}
+
+@media (max-width:860px) {
+    .shape7 {
+        display: none;
+    }
+}
+
+@media(max-width:1180px) {
+    #justi {
+        width: 100%;
+    }
+
+    #justi2 {
+        width: 100%;
+    }
+}
+
+.accordion-button {
+margin-top: 20px;
+}
+

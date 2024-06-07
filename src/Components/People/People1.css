@@ -1,0 +1,164 @@
+.card-title4{
+    font-size: 16px;
+    font-weight: bold;
+ 
+}
+.card-text4{
+    font-size: 30px;
+    font-weight: 650;
+ 
+}
+.card-body4{
+
+    margin-top: 50px;
+}
+.rt-icon{
+    border-radius:50px
+}
+
+.bonanh{
+    /* background-color: antiquewhite; */
+    padding: 15px;
+    margin-top: 40px;
+}
+.rt-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 0px 50px 50px 50px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background: var(--docfi-primary-color);
+    /* background-color: #6c62ca; */
+   
+    background: #9833ff;
+    padding: 15px ;
+}
+.rtrt1:hover .rt-icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50px 0px 50px 50px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    background: var(--docfi-primary-color);
+    /* background-color: #6c62ca; */
+   
+    background: #9833ff;
+    padding: 15px ;
+}
+
+.card-title88{
+    padding-top: 25px;
+    /* background-color: aqua;  */
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.type{
+   color:#1d2746;
+    text-decoration: none;
+}
+.card-text8{
+    padding-top: 10px;
+    font-size: 16px;
+    color:#68707f;
+    padding-bottom: 43px;
+    font-weight: 400;
+    /* background-color: aqua; */}
+  
+
+  
+    .icon2{
+        background-color: #f8f8f8;
+        padding: 50px 30px 0px 30px;
+        border-radius: 15px;
+       
+    }
+    .btn11 {
+        padding: 15px 29px 13px;
+       border: 1px solid white;
+        border-radius: 50px;
+        font-size: 16px;
+        font-weight:600;
+        background:none;
+       
+        color: white;
+        margin:0px 6px 0px 0px;
+        
+     }
+     .btn11:hover{
+        color: black;
+        background-color: aliceblue;
+     }
+    
+#wp1{
+
+  /* background-color: #9833ff; */
+position: absolute;
+overflow:hidden ;
+right: -2px;
+top:-200px
+
+
+
+   
+}
+.next111 {
+    background-color: black;
+    bottom: 0px;
+    /* border: 1px solid red; */
+    position: relative;
+
+}
+
+.next1:hover{
+    position: relative;
+    /* background-color: #1489f6; */
+    animation-name: loading, move1;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes loading {
+0%{
+    /* background-color: #1489f6; */
+}   
+50%{
+    /* background-color: #1489f6; */
+    
+}
+}
+@keyframes move1{
+    from{
+        right:0;
+    } to {
+        right:100px;
+       
+        
+    } 
+  
+        
+    
+}
+@media(max-width:727px){
+    .next1{
+        display: none;
+    }
+   
+}   
+
+
+
+
+@media (min-width:900px){
+  
+    .card-text4{
+        font-size: 36px;}
+        .bonanh1{
+           /* background-color: antiquewhite; */
+            padding: 60px;
+        
+        }
+        
+
+}

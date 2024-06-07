@@ -1,0 +1,150 @@
+/* html{
+    width: 100vw;
+} */
+/* 
+body{
+    width: 100vw;
+}
+
+.App{
+    width: 100%;
+} */
+a {
+    color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+    text-decoration: none;
+}
+
+.Name3 {
+    height: 600px;
+    background-color: blue;
+    background-image: url("https://www.radiustheme.com/demo/wordpress/themes/docfi/wp-content/uploads/2023/09/banner_bg1.jpg");
+
+
+}
+
+.great {
+    /* padding: 80px; */
+    background-image: url("https://www.radiustheme.com/demo/wordpress/themes/docfi/wp-content/uploads/2023/09/banner_bg1.jpg");
+    height: 400px;
+    padding: 10px;
+
+}
+
+
+@media (min-width :973px) {
+    .Name3 {
+        background-image: url("https://www.radiustheme.com/demo/wordpress/themes/docfi/wp-content/uploads/2023/09/banner_bg1.jpg");
+        height: 735px;
+        position: relative;
+        overflow: hidden;
+
+    }
+
+
+
+}
+
+.Name4 {
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+.shape3 {
+    position: absolute;
+    left: 67px;
+    bottom: 0px;
+
+
+}
+
+.shape4 {
+    position: absolute;
+    right: 70px;
+    bottom: 0px;
+    /* background-color: aquamarine; */
+}
+
+
+
+
+
+.twoimg {
+    background-color: black;
+    bottom: -88px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+
+
+.nine {
+    background-color: #f5f5f5;
+    padding: 10px;
+    padding-bottom: 90px;
+}
+
+.fast {
+    background-color: #fbfbfb;
+    padding: 20px;
+
+
+
+
+
+}
+
+
+@media(min-width:576px){
+    .fast {
+        padding: 100px;
+        
+    }
+   
+}
+
+@media (max-width:1000px) {
+    .shape3 {
+        display: none;
+    }
+
+    .shape4 {
+        display: none;
+    }
+   
+
+}
+
+
+
+
+.recon {
+    background-color: #6771a5;
+    margin-top: 87px;
+    background-image: url("https://www.radiustheme.com/demo/wordpress/themes/docfi/wp-content/uploads/2023/09/service_bg.jpg");
+
+
+}
+@media (min-width:724px){
+    .recon {
+        height: 1400px;
+    }
+}
+@media(min-width:768px){
+    .recon {
+        height: 1000px;
+    }
+}
+@media(min-width:992px){
+    .recon {
+        height: 900px;
+    }
+}
+@media(min-width:1142px){
+    .recon {
+        height: 800px;
+    }
+}
+@media(min-width:1250px){
+    .recon {
+        height: 765px;
+    }
+}
