@@ -1,4 +1,3 @@
-
 export const Poem1 = [
   {
     id: 1,
